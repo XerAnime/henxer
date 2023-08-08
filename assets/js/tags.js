@@ -13,7 +13,7 @@ const tlt = document.querySelector('title');
 
 $(document).ready(function () {
     $.ajax({
-        url: `https://hentaimama.io/browse/hentai-tags/${t}/${p}`,
+        url: `https://apikatsu.otakatsu.studio/api/hanime/browse/hentai-tags/${t}/${p}`,
         type: "GET",
         dataType: "json",
         success: async function (data) {
