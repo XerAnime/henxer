@@ -7,7 +7,7 @@ content.style.display = 'none';
 
 $(document).ready(function () {
     $.ajax({
-        url: 'https://hentaimama.io/getLanding/recent',
+        url: 'https://apikatsu.otakatsu.studio/api/hanime/getLanding/recent',
         type: 'GET',
         dataType: 'json',
         success: async function (data) {
@@ -27,7 +27,7 @@ $(document).ready(function () {
         },
     })
     $.ajax({
-        url: 'https://hentaimama.io/getLanding/newest',
+        url: 'https://apikatsu.otakatsu.studio/api/hanime/getLanding/newest',
         type: 'GET',
         dataType: 'json',
         cache: false,
@@ -47,7 +47,7 @@ $(document).ready(function () {
         },
     })
     $.ajax({
-        url: 'https://hentaimama.io/getLanding/trending',
+        url: 'https://apikatsu.otakatsu.studio/api/hanime/getLanding/trending',
         type: 'GET',
         dataType: 'json',
         cache: false,
