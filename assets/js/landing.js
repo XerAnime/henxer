@@ -7,7 +7,7 @@ content.style.display = 'none';
 
 $(document).ready(function () {
     $.ajax({
-        url: 'https://senpai-api.vercel.app/getLanding/recent',
+        url: 'https://hentaimama.io/getLanding/recent',
         type: 'GET',
         dataType: 'json',
         success: async function (data) {
@@ -27,7 +27,7 @@ $(document).ready(function () {
         },
     })
     $.ajax({
-        url: 'https://senpai-api.vercel.app/getLanding/newest',
+        url: 'https://hentaimama.io/getLanding/newest',
         type: 'GET',
         dataType: 'json',
         cache: false,
@@ -47,7 +47,7 @@ $(document).ready(function () {
         },
     })
     $.ajax({
-        url: 'https://senpai-api.vercel.app/getLanding/trending',
+        url: 'https://hentaimama.io/getLanding/trending',
         type: 'GET',
         dataType: 'json',
         cache: false,
