@@ -2,7 +2,7 @@ const col2 = document.getElementById("col2");
 
 $(document).ready(function () {
     $.ajax({
-        url: "https://hentaimama.io/browse",
+        url: "https://apikatsu.otakatsu.studio/api/hanime/browse",
         type: "GET",
         dataType: "json",
         success: async function (data) {
