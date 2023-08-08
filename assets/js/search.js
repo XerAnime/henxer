@@ -8,7 +8,7 @@ hidres.style.display = "none";
 document.getElementById("search").value = q;
 
 $.ajax({
-    url: `https://hentaimama.io/search`,
+    url: `https://apikatsu.otakatsu.studio/api/hanime/search`,
     data: JSON.stringify({
         "search": q,
         "tags": [],
