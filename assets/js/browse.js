@@ -2,7 +2,7 @@ const col2 = document.getElementById("col2");
 
 $(document).ready(function () {
     $.ajax({
-        url: "https://senpai-api.vercel.app/browse",
+        url: "https://hentaimama.io/browse",
         type: "GET",
         dataType: "json",
         success: async function (data) {
