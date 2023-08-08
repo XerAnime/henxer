@@ -8,7 +8,7 @@ hidres.style.display = "none";
 document.getElementById("search").value = q;
 
 $.ajax({
-    url: `https://senpai-api.vercel.app/search`,
+    url: `https://hentaimama.io/search`,
     data: JSON.stringify({
         "search": q,
         "tags": [],
