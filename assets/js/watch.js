@@ -20,7 +20,7 @@ const tlt = document.querySelector('title');
 
 $(document).ready(function () {
     $.ajax({
-            url: https://hanime.tv/api/hanime/getVideo/player?id=${id}`,
+            url: https://hanime.tv/videos/hentai/?id=${id}`,
             type: "GET",
             dataType: "json",
             success: async function (data) {
